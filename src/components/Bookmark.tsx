@@ -20,7 +20,10 @@ const useStyles = makeStyles({
     textAlign: "left",
     fontWeight: "normal",
     fontSize: "0.7em",
-    color: colorPalette.text.secondary,
+    color: colorPalette.accent1,
+    '&:hover': {
+      color: colorPalette.accent1
+    },
   },
   icon: {
     color: colorPalette.icon
